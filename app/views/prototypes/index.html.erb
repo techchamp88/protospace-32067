@@ -10,6 +10,14 @@
     <%# // ログインしているときは上記を表示する %>
     <div class="card__wrapper">
       <%# 投稿機能実装後、部分テンプレートでプロトタイプ投稿一覧を表示する %>
+
+      <%# <% @prototypes  each do|prototype| %> 
+       <%# <%= render partial:"prototype", local{prototype:prototype} %> 
+      <%# <% end 一緒の記述 %>
+
+
+
+      <%= render partial: "prototype", collection: @prototypes %>
     </div>
   </div>
 </main>
