@@ -40,7 +40,7 @@
 
 | Column    | Type       | Options                        |
 | --------- | ---------- | ------------------------------ |
-| text      | text       |                                |
+| text      | text       | null: false                    |
 | user      | references | null: false, foreign_key: true |
 | prototype | references | null: false, foreign_key: true |
 
