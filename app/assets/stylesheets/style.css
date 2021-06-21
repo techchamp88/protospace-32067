@@ -299,7 +299,7 @@ a {
  /* スマホ表示 */
 @media (max-width: 599px) {
   .logo {
-    width: 120px;
+    width: 20px;
   }
   .page-heading {
     font-size: 20px;
